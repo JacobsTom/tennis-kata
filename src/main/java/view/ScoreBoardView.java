@@ -15,7 +15,7 @@ public class ScoreBoardView extends JFrame {
         Controller controller = new Controller(player1, player2);
 
         this.setTitle("Tennis");
-        this.setSize(500, 500);
+        this.setSize(1000, 500);
 
         PlayerScoreView psv1 = new PlayerScoreView(player1, controller);
         PlayerScoreView psv2 = new PlayerScoreView(player2, controller);
